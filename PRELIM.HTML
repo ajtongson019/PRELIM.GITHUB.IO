@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The New York Times</title>
+
+    <style>
+        @font-face {
+            font-family: new york;
+            src: url(FONT.ttf);
+        }
+
+        h1 {
+            font-family: new york;
+            font-size: 50px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        h2,h3 {
+            color: #333;
+        }
+        h4{
+            color: #ff0000e3;
+        }
+        h5{font-size: 30px;
+            color: #333;
+        }
+        h6{font-size: 30px;
+        }
+        a {
+            color: #0033cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        .section {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #d0d0d0; 
+            border-radius: 5px; 
+        }
+
+        .container {
+            display: flex;
+            width: 100%;
+        }
+        .left, .right {
+            width: 20%;
+            padding: 20px;
+            background-color: #e0e0e0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .middle {
+            width: 60%;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>The New York Times</h1>
+    <hr>
+
+    <div class="container">
+       
+        <div class="left">
+            <h2>CLASSIFIEDS</h2>
+                <ul><a href="#">Automobiles</a></ul>
+                <ul><a href="#">Job Market</a></ul>
+                <ul><a href="#">Real Estate</a></ul>
+                <ul><a href="#">All Classifieds</a></ul>
+      
+            <h2>NEWS</h2>
+                <ul><a href="#">Quick News</a></ul>
+                <ul><a href="#">NYT Front Page</a></ul>
+                <ul><a href="#">Arts</a></ul>
+                <ul><a href="#">Business</a></ul>
+                <ul><a href="#">Health</a></ul>
+                <ul><a href="#">Internation</a></ul>
+                <ul><a href="#">National</a></ul>
+                <ul><a href="#">New York Region</a></ul>
+                <ul><a href="#">Obituaries</a></ul>
+                <ul><a href="#">Politics</a></ul>
+                <ul><a href="#">Science</a></ul>
+                <ul><a href="#">Sports</a></ul>
+                <ul><a href="#">Technology</a></ul>
+                <ul><a href="#">Weather</a></ul>
+                <ul><a href="#">Connections</a></ul>
+                <ul><a href="#">Special: Taxes</a></ul>
+         
+            <h2>OPINION</h2>
+                <ul><a href="#">Editorial</a></ul>
+                <ul><a href="#">Readers' Opinions</a></ul>
+        
+            <h2>FEATURES</h2>
+                <ul><a href="#">Automobiles</a></ul>
+                <ul><a href="#">Books</a></ul>
+                <ul><a href="#">Cartoons</a></ul>
+                <ul><a href="#">Crossword Games</a></ul>
+                <ul><a href="#">Job Markets</a></ul>
+                <ul><a href="#">Living</a></ul>
+                <ul><a href="#">Magazines</a></ul>
+                <ul><a href="#">Movies</a></ul>
+                <ul><a href="#">Photos</a></ul>
+                <ul><a href="#">Real Estate</a></ul>
+                <ul><a href="#">Travel</a></ul>
+                <ul><a href="#">Week in Review</a></ul>
+        </div>
+         
+        <div class="middle">
+            <h3>Search:
+            <form action="/search" method="GET">
+            <input type="text" name="query" placeholder="Search...">
+            <input type="submit" value="Search">
+            </form>
+             </h3>
+
+            <h5>Milosevic Standoff Continues After Failed Arrest Attempts</h5>
+            <p>By STEVEN ERLANGER
+                FROM SUNDAY'S Times
+            </p>
+            <P>Slobodan Milosevic declared that he "would not go to prison alive" as the former Yugoslav President remained holed up in his house outside Belgrade after two spectaculat failures to arrest him.</P>
+            <ul><a href="#">Go to article</a></ul>
+                <li>VIDEO: <a href="#">Milosevic Defies Arrest Effort</a></li>
+                <li><a href="#">Milosevic's Guards Put Up Fierce Fight in Chaotic Night</a></li>
+                <li><a href="#">Week in Review: Milosevic Accused Serbia on Trial</a></li>
+            </ul>
+
+           <h6><a href="#">Secret U.S. Study Concludes Taiwan Needs New Arms</a></h6>
+            <p>By MICHAEL GORDON
+                FROM SUNDAY'S TIMES
+            </p>
+            <p>A Confidential review by United States naval officers has concluded that Taiwan needs a significant infusion of new weapons, including a radar system...</p>
+            <ul><a href="#">Click here for more</a></ul>
+        </div>
+    
+        <div class="right">
+                <div class="section">
+                    <h2>INSIDE</h2>
+                    <h4>TRAVEL</h4>
+        <ul> <a href="#">INDIA</a></ul> 
+                    <Table>The Hindus temple at Tirupati is remarkable for its riches (and long lines)</Table>
+                    <img src="HINDU.jpg" alt="IMAGE CANNOT BE LOADED" width="100" height="100">
+                    <li><a href="#">Slide Show</a></li>
+                </div>
+                
+                <div class="section">
+                    <h2>READERS' OPINIONS</h2>
+                    <h4>FORUMS</h4>
+        <ul> <a href="#">YOU'RE THE ETHICIST</a></ul> 
+                    <Table>If you enjoy ethical dilemmas, join our discussion based on the weekly "Ethicist" column in the magazine.</Table>
+                    <li><a href="#">Join the discussion</a></li>
+                </div>
+                
+                <div class="section">
+                    <h2>MARKETS</h2>
+                    <table>
+                        <tr>
+                            <th>Market</th>
+                            <th>Price</th>
+                            <th>Change</th>
+                            <th>Volume</th>
+                        </tr>
+                        <tr>
+                            <td>Bitcoin (BTC)</td>
+                            <td>$26,000</td>
+                            <td>+2.5%</td>
+                            <td>1,500 BTC</td>
+                        </tr>
+                        <tr>
+                            <td>Ethereum (ETH)</td>
+                            <td>$1,600</td>
+                            <td>-1.2%</td>
+                            <td>5,000 ETH</td>
+                        </tr>
+                        <tr>
+                            <td>Ripple (XRP)</td>
+                            <td>$0.50</td>
+                            <td>+0.8%</td>
+                            <td>3,000,000 XRP</td>
+                        </tr>
+                        <tr>
+                            <td>Litecoin (LTC)</td>
+                            <td>$100</td>
+                            <td>+1.0%</td>
+                            <td>1,200 LTC</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+    </body>
+
+   
+
+    </html>
+          
